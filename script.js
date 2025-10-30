@@ -797,7 +797,7 @@ function renderStage6_Gallery() {
 function renderStage10_FinalReveal() {
   const panel = document.createElement('div');
   panel.className = 'panel text-center text-white glow scale-in';
-  const celebrantImage = 'assets/images/kassy.jpg'; 
+  const celebrantImage = 'kassy.jpg'; 
 
   panel.innerHTML = `
       <div class="mb-4">
@@ -1129,3 +1129,4 @@ function downloadMessagesAsText(messages) {
   init();
 
 })();
+
